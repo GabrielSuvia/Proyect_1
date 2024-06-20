@@ -1,0 +1,11 @@
+*{
+    .custom-container {
+        max-width: 50%; /* Ajusta el tamaño máximo del contenedor */
+    }
+    .custom-card {
+        width: 40rem; /* Ajusta el tamaño de la tarjeta */
+    }
+}
+body{
+background-color: orange;
+}

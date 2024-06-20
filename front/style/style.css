@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(182, 65, 23);
+  
+  }
+  a{
+      text-decoration: none;
+      color: rgb(146, 34, 34);
+     
+     }
+  #sec-1{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      background-color: orange;
+      scale: 12px;
+     }
+  .log{
+     width: 120px;
+     height: 60px;
+     border-radius: 50%;
+     position: relative;
+     
+     }
+  h1{
+      margin: 10px;
+      font-size: 35px;
+      text-align: center;
+  }
+
+
+.custom-container {
+    max-width: 55%; /* Ajusta el tamaño máximo del contenedor */
+}
+.custom-card {
+    width: 15rem; /* Ajusta el tamaño de la tarjeta */
+}
+.custom-card{
+  height: 520px;
+}
