@@ -1,9 +1,8 @@
 const movieService = require("../services/movieService");
 module.exports = {
-    controllerMovie: (req,res)=>{
-        res.status(200).send("Pronto se mostraran las peliculas")
+   // controllerMovie: (req,res)=>{
+     //   res.status(200).send("Pronto se mostraran las peliculas")
         //console.log("estamos solicitando movie");
-      },
     getMovies: async (req,res)=>{
       
       try{

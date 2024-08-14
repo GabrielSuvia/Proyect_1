@@ -1,5 +1,8 @@
 
-function renderMovie(movie){
+function renderMovie(movies){
+movies.foreach((movie)=>{
+
+
 
     console.log("Modulo renderCard comunicandose")
     const container = document.getElementById("container");
@@ -56,7 +59,7 @@ function renderMovie(movie){
     cardBody.appendChild(titleMovie);
     cardBody.appendChild(yearMovie);
 
-   
+})
 }
 
-module.exports = renderMovie();
+module.exports = renderMovie;

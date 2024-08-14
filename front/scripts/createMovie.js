@@ -29,6 +29,7 @@ function createMovie(){
    }else{
 
     const newMovie = {
+
         title: docTitle,
         year: docYear,
         director: docDirector,
